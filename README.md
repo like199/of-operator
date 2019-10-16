@@ -1,5 +1,5 @@
 # of-operator
-The of-operator  makes it easy to run allreduce-style distributed training.
+of-operator 是一个自定义k8s CRD，可以方便的跑分布式的训练任务.
 # Installation 
 make && make install && make run
 
