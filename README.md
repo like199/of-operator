@@ -5,8 +5,9 @@ make && make install && make run
 
 you can test the crd
 
-kubectl create -f ./config/samples/.
-kubectl get crd.
+kubectl create -f ./config/samples/
+
+kubectl get ofjob
 
 
 
