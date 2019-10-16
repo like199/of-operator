@@ -1,0 +1,10 @@
+apiVersion: infra.oneflow.org/v1
+kind: OfJob
+metadata:
+  name: ofjob-sample
+spec:
+  # Add fields here
+  foo: bar
+  replicas:  3
+status:
+  status:  "start"

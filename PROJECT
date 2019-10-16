@@ -1,0 +1,7 @@
+version: "2"
+domain: oneflow.org
+repo: my.domain
+resources:
+- group: infra
+  version: v1
+  kind: OfJob
